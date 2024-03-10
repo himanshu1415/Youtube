@@ -1,0 +1,27 @@
+How to download and install Python
+
+Step 1
+
+Open Google or you can click this link ( Google ) and 
+then type install python.
+
+Click on the highlighted button to install python setup in your computer system.
+If you are interested in downloading previous versions then click on downloads button
+choose your OS(Windows , Linux,  IOS ) and download the setup in your system.
+
+Step 2
+
+Run the .exe file . This page will open
+
+You can choose  any of the options Install Now or Customize Installation
+
+In Install option everything will be done for you and python will installed in              C: drive.
+In Customize Installation option you can install python anywhere in your system  and also the features you want it.
+I will recommend you to choose 1st option.
+You can also see a checkbox saying Add python to path 
+If you have installed any IDE  before, you would be knowing we need to add path of the IDE’s in system variable PATH to run the programs in our system.
+If you haven’t just click on this checkbox and proceed to next button.
+Adding path manually –  This PC >  Properties > Advanced System Settings > Environment Variables > PATH >New .
+Now python is installed in your system.
+
+Hope you like it readers 🙂
