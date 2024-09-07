@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganesh Chaturthi Greeting Card</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #ffe6b3;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: linear-gradient(145deg, #ffdd99, #ffd480);
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            width: 350px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card-header {
+            background-color: #ff704d;
+            color: white;
+            padding: 5px 15px;
+            font-size: 1.5em;
+        }
+
+        .ganesh-img {
+            height: 10rem;
+            width: 150px;
+            margin-top: 10px;
+            border-radius: 50%;
+            border: 5px solid #ff704d;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .card-body p {
+            color: #663300;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #ff704d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1em;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #e65c3d;
+        }
+
+        #mantra {
+            margin-top: 20px;
+            font-weight: bold;
+            color: #ff704d;
+            font-size: 1.3em;
+            display: none;
+        }
+
+        .card-footer {
+            background-color: #ff704d;
+            color: white;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h2>Happy Ganesh Chaturthi!</h2>
+        </div>
+        <img src="C:\Users\himanshu\Desktop\ganesha.jpg" alt="Lord Ganesha" class="ganesh-img">
+        <div class="card-body">
+            <p>May Lord Ganesha bless you with wisdom, prosperity, and good fortune.</p>
+            <button onclick="showMantra()">Show Ganesh Mantra</button>
+            <p id="mantra" class="hidden">ॐ गं गणपतये नमः</p>
+        </div>
+        <div class="card-footer">
+            <p>&copy; 2024 CodersWorld</p>
+        </div>
+    </div>
+
+    <script>
+        function showMantra() {
+            const mantraElement = document.getElementById('mantra');
+            mantraElement.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
